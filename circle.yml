@@ -15,5 +15,8 @@ dependencies:
 
 test:
   minitest_globs:
-    - ruby/bob/bob_test.rb
+    - ruby ruby/bob/bob_test.rb
+    - ruby/etl/etl_test.rb
+  override:  
+    - ruby ruby/bob/bob_test.rb
     - ruby/etl/etl_test.rb
