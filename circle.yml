@@ -1,3 +1,14 @@
+# File structure and content
+# 
+# The circle.yml file is made up of six primary sections. Each section represents a phase of running your tests:
+# 
+# machine: adjusting the VM to your preferences and requirements
+# checkout: checking out and cloning your git repo
+# dependencies: setting up your project's language-specific dependencies
+# database: preparing the databases for your tests
+# test: running your tests
+# deployment: deploying your code to your web servers
+
 machine:
   ruby:
     version: 1.9.3-p448
