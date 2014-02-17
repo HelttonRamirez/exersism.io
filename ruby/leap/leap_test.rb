@@ -1,12 +1,10 @@
 require 'simplecov'
 SimpleCov.start
-
 require 'minitest/autorun'
 require_relative 'year'
 
 class YearTest < MiniTest::Unit::TestCase
   def test_leap_year
-    
     assert Year.leap?(1996)
   end
 

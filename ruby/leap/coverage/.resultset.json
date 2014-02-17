@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "/Users/conker/Developers/Ruby/exercism/ruby/leap/year.rb": [
+      "/Users/conker/exersism.io/ruby/leap/year.rb": [
         null,
         null,
         null,
@@ -22,6 +22,6 @@
         null
       ]
     },
-    "timestamp": 1392044068
+    "timestamp": 1392656163
   }
 }

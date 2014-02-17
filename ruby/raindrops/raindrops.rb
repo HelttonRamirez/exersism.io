@@ -7,7 +7,7 @@ class Raindrops
     s << 'Pling' if pling?(n)
     s << 'Plang' if plang?(n)
     s << 'Plong' if plong?(n)
-    s << number.to_s if s == ''
+    s << n.to_s if s == ''
   end
 
   def pling?(n)

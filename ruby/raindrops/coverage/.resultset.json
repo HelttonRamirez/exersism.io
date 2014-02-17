@@ -1,7 +1,7 @@
 {
   "MiniTest": {
     "coverage": {
-      "/Users/conker/Developers/Ruby/exercism/ruby/raindrops/raindrops.rb": [
+      "/Users/conker/exersism.io/ruby/raindrops/raindrops.rb": [
         null,
         null,
         null,
@@ -28,6 +28,6 @@
         null
       ]
     },
-    "timestamp": 1392044118
+    "timestamp": 1392656143
   }
 }
