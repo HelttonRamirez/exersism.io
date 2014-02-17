@@ -2,8 +2,6 @@ machine:
   ruby:
     version: 1.9.3-p448
 
-
-
 checkout:
   post:
     - git submodule sync
@@ -14,9 +12,6 @@ dependencies:
     - gem install simplecov
 
 test:
-  minitest_globs:
-    - ruby ruby/bob/bob_test.rb
-    - ruby/etl/etl_test.rb
   override:  
     - ruby ruby/bob/bob_test.rb
-    - ruby/etl/etl_test.rb
+    - ruby ruby/etl/etl_test.rb
