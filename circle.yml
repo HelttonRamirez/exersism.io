@@ -9,7 +9,7 @@ checkout:
 
 dependencies:
   pre:
-    - gem install simplecov
+    #- gem install simplecov
 
 test:
   override:  
