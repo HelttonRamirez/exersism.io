@@ -15,3 +15,7 @@ test:
   override:  
     - ruby ruby/bob/bob_test.rb
     - ruby ruby/etl/etl_test.rb
+    - ruby ruby/grains/grains_test.rb
+    - ruby ruby/leap/leap_test.rb
+    - ruby ruby/hamming/hamming_test.rb
+    - ruby ruby/raindrops/raindrops_test.rb
