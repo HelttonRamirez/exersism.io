@@ -1,14 +1,8 @@
 machine:
   ruby:
-  	version:1.9.3p392
+  	version: 1.9.3-p392
 
-deployment:
-  staging:
-    branch: master
-    commands:
-      - git puch 
-      - git push git@heroku.com:yakify-ci.git:
-        timeout: 600
+
 
 checkout:
   post:
