@@ -1,0 +1,25 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/conker/Developers/Ruby/exercism/ruby/bob/bob.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1392043893
+  }
+}

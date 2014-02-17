@@ -1,0 +1,22 @@
+{
+  "MiniTest": {
+    "coverage": {
+      "/Users/conker/Developers/Ruby/exercism/ruby/hamming/hamming.rb": [
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null
+      ]
+    },
+    "timestamp": 1392044042
+  }
+}
