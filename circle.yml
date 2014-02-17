@@ -1,0 +1,27 @@
+machine:
+  ruby:
+  	version:1.9.3p392
+
+deployment:
+  staging:
+    branch: master
+    commands:
+      - git puch 
+      - git push git@heroku.com:yakify-ci.git:
+        timeout: 600
+
+checkout:
+  post:
+    - git submodule sync
+    - git submodule update --init 
+
+dependencies:
+  pre:
+    - gem uninstall bundler
+    - gem install bundler --pre
+    - gem install simplecov
+
+test:
+  minitest_globs:
+    - ruby/bob/bob_test.rb
+    - ruby/etl/etl_test.rb
